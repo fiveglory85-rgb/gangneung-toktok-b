@@ -1,0 +1,12 @@
+const teacherOverrides={
+ 'a-262':[{id:'gnecc-kim-minseop',name:'김민섭',role:'작가'},{id:'gnecc-heo-taejun',name:'허태준',role:'영화감독'}],
+ 'g-cku-lifelong-2026-fall-0':[{id:'cku-han-gyeongju',name:'한경주',role:'보이차 강좌 강사'}],
+ 'g-cku-lifelong-2026-fall-1':[{id:'cku-yu-jewon',name:'유제원',role:'AI활용·포토샵 강사'}],
+ 'g-cku-lifelong-2026-fall-2':[{id:'cku-jeong-myeonghwa',name:'정명화',role:'죽음교육 강사'}],
+ 'g-cku-lifelong-2026-fall-3':[{id:'cku-lee-myeongin',name:'이명인',role:'유화 강사'}]
+};
+export function subjectTags(x){const t=[x.category];const text=[x.title,x.description].join(' ');for(const [re,name]of [[/독서|책|북토크|문학/,'독서·인문'],[/예술|드로잉|유화|전시|미술|사진|기록/,'예술·창작'],[/AI|포토샵|3D/,'디지털·제작'],[/요리|이유식/,'요리·생활'],[/명상|요가|건강/,'건강·돌봄'],[/공연|음악|가야금|발레|사물놀이/,'공연·음악'],[/부모|가족|자녀/,'가족']])if(re.test(text))t.push(name);return [...new Set(t)]}
+export function enrichEdition(x){return {...x,sourceRecordId:x.sourceRecordId||x.id,programId:x.programId||'program-'+x.id,editionId:x.editionId||'edition-'+x.id,editionLabel:x.editionLabel|| (x.start?x.start.slice(0,4)+'년 '+Number(x.start.slice(5,7))+'월 과정':'기존 공고 · 회차 확인 필요'),instructors:x.instructors|| (teacherOverrides[x.id]||[]).map(t=>({...t,sourceUrl:x.sourceUrl,verifiedAt:x.referenceDate,identityNote:'공식 공고 기준 · 동명이인은 기관 확인 후 연결'})),subjectTags:x.subjectTags||subjectTags(x),archivedAt:x.archivedAt||'2026-11-04'};}
+export function mergeArchive(prior,current){const out=prior.map(enrichEdition),ids=new Set(out.map(x=>x.editionId));for(const raw of current){const x=enrichEdition(raw);if(!ids.has(x.editionId)){if(out.some(e=>e.id===x.id))x.id=x.id+'--'+x.editionId;out.push(x);ids.add(x.editionId)}}return out}
+export function relatedEditions(x,all){const exact=all.filter(y=>y.editionId!==x.editionId&&y.programId===x.programId).map(y=>({item:y,relation:'같은 프로그램의 다른 회차'}));const similar=all.filter(y=>y.editionId!==x.editionId&&y.programId!==x.programId&&y.category===x.category&&y.subjectTags?.some(t=>t!==x.category&&x.subjectTags?.includes(t))).map(y=>({item:y,relation:'주제가 비슷한 프로그램'}));return [...exact,...similar].slice(0,6)}
+export function reviewEligibility(x,now=new Date()){const today=new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Seoul'}).format(now);if(x.isDirectory||!x.start)return {allowed:false,reason:'개별 회차와 참여 일정이 확인된 프로그램에서 후기를 남길 수 있어요.'};if(x.start>today)return {allowed:false,reason:'아직 시작 전이에요. 참여한 뒤 후기를 남겨 주세요.'};return {allowed:true,completedAllowed:!!x.end&&x.end<=today,earliest:x.start,latest:x.end&&x.end<today?x.end:today}}

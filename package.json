@@ -4,7 +4,10 @@
   "type": "module",
   "scripts": {
     "build": "node scripts/build.mjs",
-    "test": "node scripts/test.mjs && node scripts/test-v2.mjs",
-    "validate": "node scripts/validate-artifact.mjs"
-  }
+    "test": "node scripts/test.mjs && node scripts/test-v2.mjs && node scripts/test-archive.mjs",
+    "validate": "node scripts/validate-artifact.mjs",
+    "db:generate": "drizzle-kit generate"
+  },
+  "dependencies": {"drizzle-orm":"^0.44.7"},
+  "devDependencies": {"drizzle-kit":"^0.31.6"}
 }

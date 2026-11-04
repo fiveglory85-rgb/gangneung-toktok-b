@@ -23,7 +23,7 @@ export function filterItems(items,f,now=new Date()){
  if(f.audience&&!(x.audienceGroups||[]).includes(f.audience)&&!x.target?.includes(f.audience))return false;
  if(f.family&&!(x.audienceGroups||[]).some(a=>['미취학','초등 저학년','초등 고학년'].includes(a))&&!/가족|부모|자녀|어린이/.test(x.target||''))return false;
  if(f.open&&p.key!=='open')return false;
- if(q&&![x.title,x.description,x.place,x.institution,x.target].join(' ').toLowerCase().includes(q))return false;
+ if(q&&![x.title,x.description,x.place,x.institution,x.target,...(x.instructors||[]).map(t=>t.name+' '+t.role)].join(' ').toLowerCase().includes(q))return false;
  if(f.from&&(!x.start||(x.end||x.start)<f.from))return false;
  if(f.to&&(!x.start||x.start>f.to))return false;
  return true;
