@@ -1,9 +1,10 @@
 {
-  "name": "sites-worker-esm-starter",
+  "name": "gangneung-toktok-b",
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "bash scripts/build.sh",
+    "build": "node scripts/build.mjs",
+    "test": "node scripts/test.mjs && node scripts/test-v2.mjs",
     "validate": "node scripts/validate-artifact.mjs"
   }
 }

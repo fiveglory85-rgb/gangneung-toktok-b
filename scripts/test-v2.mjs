@@ -1,0 +1,25 @@
+import assert from 'node:assert/strict';import {readFile} from 'node:fs/promises';import {Script} from 'node:vm';
+import {buildCurated,fee,institutions} from '../src/content.mjs';import {phase,filterItems} from '../src/logic.mjs';
+const checks=[];function check(name,fn){fn();checks.push(name)}
+const records=buildCurated(JSON.parse(await readFile('data/reference.json','utf8'))),now=new Date('2026-11-04T15:00:00+09:00');
+check('real editorial records survive without keys',()=>assert.equal(records.length,32));
+check('missing fee does not mean free',()=>{assert.equal(fee('무료 여부 미기재'),null);assert.equal(fee('공식 포스터에 미기재'),null);assert.equal(records.find(x=>x.id==='a-264').cost,null)});
+check('free and paid fees',()=>{assert.equal(fee('무료'),0);assert.equal(fee('무료 · 재료비 별도'),0);assert.equal(fee('150,000원·재료비 별도'),150000)});
+check('real source links and unique ids',()=>{assert.equal(new Set(records.map(x=>x.id)).size,records.length);assert.ok(records.every(x=>/^https:\/\//.test(x.sourceUrl)&&!x.sample));assert.ok(institutions.length>=8)});
+check('ended events excluded by default',()=>{const rows=filterItems(records,{},now);assert.equal(rows.length,29);assert.ok(!rows.some(x=>x.id==='a-149'));assert.equal(filterItems(records,{history:true},now).length,32)});
+check('registration deadline independent from ongoing course',()=>{assert.equal(phase(records.find(x=>x.id==='g-gnslib-fall-moru-adult-0'),now).key,'closed');assert.equal(phase(records.find(x=>x.id==='a-250'),now).key,'closed')});
+check('Korea same-day deadline time enforced',()=>{const x=records.find(x=>x.id==='g-family-1028-child-3dpen-0');assert.equal(phase(x,now).label,'오늘 마감');assert.equal(phase(x,new Date('2026-11-04T16:01:00+09:00')).key,'closed')});
+check('free filter excludes unknown costs',()=>{let rows=filterItems(records,{cost:'free'},now);assert.ok(rows.length>=1&&rows.every(x=>x.cost===0));assert.ok(!rows.some(x=>x.id==='a-264'))});
+check('search and institution filters',()=>{assert.equal(filterItems(records,{query:'가야금'},now).length,1);assert.equal(filterItems(records,{institution:'강릉교육문화관'},now).length,1)});
+check('date range overlaps actual event dates',()=>{const rows=filterItems(records,{from:'2026-11-07',to:'2026-11-08'},now);assert.ok(rows.some(x=>x.id==='a-262'));assert.ok(!rows.some(x=>x.id==='a-264'));assert.equal(filterItems(records,{from:'2026-11-09',to:'2026-11-01'},now).length,0)});
+check('mode and family conditions',()=>{assert.ok(filterItems(records,{mode:'play'},now).every(x=>!['교육','상담·지원','모집·공모'].includes(x.category)));assert.ok(filterItems(records,{family:true},now).some(x=>x.id==='a-257'))});
+check('saved items match stable ids',()=>assert.deepEqual(filterItems(records,{savedOnly:true,saved:['a-262']},now).map(x=>x.id),['a-262']));
+const source=await readFile('dist/server/index.js','utf8');const worker=(await import('data:text/javascript;base64,'+Buffer.from(source).toString('base64'))).default;
+const response=await worker.fetch(new Request('https://test/api/events'),{}),data=await response.json();
+check('deployed payload contains editorial and missing-key status',()=>{assert.equal(data.items.length,32);assert.ok(data.providers.every(x=>x.state==='missing_key'));assert.equal(data.mode,'editorial')});
+check('no key placeholders or sample programs in built UI',()=>{assert.ok(!source.includes('가상 프로그램'));assert.ok(!source.includes('/*APP*/'));assert.ok(!source.includes('/*CONTENT*/null'))});
+const html=await(await worker.fetch(new Request('https://test'),{})).text();
+check('bundled UI script parses',()=>new Script(html.match(/<script>([\s\S]*?)<\/script>/)[1]));
+const missing=await worker.fetch(new Request('https://test/nope'),{}),method=await worker.fetch(new Request('https://test/api/events',{method:'POST'}),{});
+check('unsupported routes and methods remain closed',()=>{assert.equal(missing.status,404);assert.equal(method.status,405)});
+console.log(checks.length+' regression checks passed\n'+checks.join('\n'));

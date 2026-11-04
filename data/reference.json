@@ -1,0 +1,850 @@
+{
+  "origin": "이번주 강릉",
+  "sourceCommit": "65169dc7e723ef0abd7ff61404f49e7f2d2e53b2",
+  "verifiedAt": "2026-11-02",
+  "importedAt": "2026-11-04",
+  "events": [
+    {
+      "id": 250,
+      "dateBadge": "~10.21",
+      "dateText": "접수 2026년 10월 10일~21일 23:00 · 캠프 11월 14~15일 · 1박 2일",
+      "category": "체험",
+      "title": "우리 가족 행복 조립 · 1박 2일 가족캠프",
+      "summary": "강릉시가족센터가 국립횡성숲체원에서 진행하는 1박 2일 가족캠프입니다. 공식 목록에서 접수·운영 기간과 장소를 확인했으며 비용·정원·잔여석은 공개되지 않아 미확인으로 유지했습니다.",
+      "location": "국립횡성숲체원 · 강원특별자치도 횡성군",
+      "price": "공식 목록에 미기재",
+      "applicationStatus": "접수 중",
+      "statusTone": "open",
+      "applicationText": "10월 21일 23:00까지 · 비용·정원·잔여석 미공개",
+      "audience": "가족 · 세부 자격은 공식 상세 확인",
+      "audienceGroups": [
+        "미취학",
+        "초등 저학년",
+        "초등 고학년",
+        "중고등",
+        "일반"
+      ],
+      "tags": [
+        "아이와",
+        "예약 필요"
+      ],
+      "sourceUrl": "https://gangneung.familynet.or.kr/center/lay1/program/S295T322C451/recruitReceipt/view.do?seq=283302"
+    },
+    {
+      "id": 237,
+      "dateBadge": "~10.23",
+      "dateText": "강좌 접수 2026년 9월 21일부터 · 10월 23일 18:00 마감",
+      "category": "교육",
+      "title": "강릉시립도서관 현재 접수 1프로그램",
+      "summary": "모루도서관 장기 강좌 중 접수 마감일이 남은 성인 과정 1개를 유지했습니다. 10월 15일 마감한 4개 강좌는 제외했고, 할로윈 공연은 별도 카드로 안내합니다.",
+      "location": "모루도서관",
+      "price": "5,000원",
+      "applicationStatus": "접수 중",
+      "statusTone": "open",
+      "applicationText": "접수 1프로그램 · 10월 23일 18:00 마감 · 전체 목록은 자동 접근 실패로 새 카드 유무 수동확인 경고",
+      "audience": "성인·시니어",
+      "audienceGroups": [
+        "일반",
+        "시니어"
+      ],
+      "tags": [
+        "독서",
+        "예약 필요"
+      ],
+      "sourceUrl": "https://www.gnslib.or.kr/participation/culture-event"
+    },
+    {
+      "id": 264,
+      "dateBadge": "~11.6",
+      "dateText": "접수 2026년 10월 28일~11월 6일 · 교육 11월 10일~12월 8일 18:30~21:30",
+      "category": "교육",
+      "title": "2026 시민기록가 양성교육",
+      "summary": "강릉의 지역문화·생활문화 자원을 사진과 영상으로 기록하는 아카이빙 이론·실습 과정입니다. 교육 4회 8강과 두 차례 기록활동을 한 과정으로 모집합니다.",
+      "location": "시나미플랫폼 · 기록활동은 강릉시 전역",
+      "price": "무료 여부 미기재 · 교육 수료 후 기록활동 기준 충족 시 활동비 20만원",
+      "applicationStatus": "접수 중",
+      "statusTone": "open",
+      "applicationText": "11월 6일까지 이메일 제출 · 강릉시민 20명 · 11월 9일 선정 결과 개별 안내",
+      "audience": "아카이빙에 관심 있는 강릉시민",
+      "audienceGroups": [
+        "일반",
+        "시니어"
+      ],
+      "tags": [
+        "예약 필요",
+        "직업교육"
+      ],
+      "sourceUrl": "https://www.gncaf.or.kr/ko/community/notice?a=view&id=474"
+    },
+    {
+      "id": 262,
+      "dateBadge": "~11.6",
+      "dateText": "접수 2026년 10월 28일 09:00~11월 6일 18:00 · 행사 11월 7일 14:00~17:00",
+      "category": "교육",
+      "title": "씨네북토크 〈3학년 2학기〉 · 김민섭×허태준",
+      "summary": "영화 〈3학년 2학기〉를 함께 본 뒤 김민섭 작가와 허태준 감독이 영화와 책에 관해 대화하는 1회 씨네북토크입니다.",
+      "location": "강릉교육문화관 1층 영상음악실 · 노암등길 37-1",
+      "price": "공식 포스터에 미기재",
+      "applicationStatus": "접수 중",
+      "statusTone": "open",
+      "applicationText": "홈페이지 접수 중 · 11월 6일 18:00까지 · 중학생 이상 50명 · 잔여석 미공개",
+      "audience": "중학생 이상 50명",
+      "audienceGroups": [
+        "중고등",
+        "일반",
+        "시니어"
+      ],
+      "tags": [
+        "강연·북토크",
+        "예약 필요",
+        "실내"
+      ],
+      "sourceUrl": "https://lib.gwe.go.kr/gnecc/menu/259/board/51/post/35576",
+      "lectureDetails": {
+        "speaker": "김민섭 · 작가 / 허태준 · 영화감독",
+        "topic": "영화 〈3학년 2학기〉 상영과 영화·책 이야기",
+        "verifiedAt": "2026-11-02",
+        "sessions": [
+          {
+            "date": "2026-11-07",
+            "title": "14:00~15:30 영화 〈3학년 2학기〉 상영 · 영상음악실"
+          },
+          {
+            "date": "2026-11-07",
+            "title": "15:30~17:00 김민섭 작가·허태준 감독 북토크 · 영상음악실"
+          }
+        ],
+        "note": "공식 포스터는 두 순서를 하나의 3시간 프로그램으로 모집합니다. 중학생 이상 50명 대상이며 회차별 개별 신청이나 자유 입장으로 해석하지 않습니다. 비용과 잔여석은 미공개입니다."
+      }
+    },
+    {
+      "id": 257,
+      "dateBadge": "~11.6",
+      "dateText": "접수 2026년 10월 22일 09:00~11월 6일 23:00 · 체험 11월 14일 · 1회",
+      "category": "체험",
+      "title": "아쿠아리움의 날",
+      "summary": "강릉시가족센터가 강릉 아쿠아리움에서 진행하는 1회 관람 프로그램입니다. 대상·비용·정원은 공식 목록에 공개되지 않아 추정하지 않았습니다.",
+      "location": "강릉 아쿠아리움 · 난설헌로 131",
+      "price": "공식 목록에 미기재",
+      "applicationStatus": "접수 중",
+      "statusTone": "open",
+      "applicationText": "11월 6일 23:00까지 · 대상·비용·정원·잔여석 미공개",
+      "audience": "가족 · 세부 자격은 공식 상세 확인",
+      "audienceGroups": [
+        "미취학",
+        "초등 저학년",
+        "초등 고학년",
+        "중고등",
+        "일반"
+      ],
+      "tags": [
+        "아이와",
+        "예약 필요"
+      ],
+      "sourceUrl": "https://gangneung.familynet.or.kr/center/lay1/program/S295T322C451/recruitReceipt/view.do?seq=284634"
+    },
+    {
+      "id": 265,
+      "dateBadge": "~11.10",
+      "dateText": "접수 2026년 10월 28일~11월 10일 22:00 · 활동 11월 18일~12월 16일",
+      "category": "모집·공모",
+      "title": "시민자율예산제 작당모의 공모전",
+      "summary": "강릉 시민이 지역 문화 이슈를 직접 기획·실행하는 팀 프로젝트 공모입니다. 아름다운·쾌적한·재미있는 분야 중 하나를 골라 3인 이상 팀으로 신청합니다.",
+      "location": "강릉시 전역 · 사전 워크숍은 시나미플랫폼",
+      "price": "참가비 미기재 · 선정 팀별 활동비 300만원 지원",
+      "applicationStatus": "접수 중",
+      "statusTone": "open",
+      "applicationText": "11월 10일 22:00까지 이메일 제출 · 20팀 내외 · 11월 12일 심의·13일 발표·15일 사전 워크숍",
+      "audience": "강릉 지역 거주자·강릉 거점 활동가 3인 이상 팀 · 연령 제한 없음",
+      "audienceGroups": [
+        "중고등",
+        "일반",
+        "시니어"
+      ],
+      "tags": [
+        "예약 필요"
+      ],
+      "sourceUrl": "https://www.gncaf.or.kr/ko/community/notice?a=view&id=473"
+    },
+    {
+      "id": 252,
+      "dateBadge": "~11.10",
+      "dateText": "접수 2026년 10월 20일 10:00~11월 10일 23:00 · 프로젝트 11월 16일~12월 13일",
+      "category": "교육",
+      "title": "아무거나 프로젝트 · 청소년 개인·팀 모집",
+      "summary": "강릉 청소년이 주제와 과정을 직접 기획·실행하는 4주 자기주도형 프로젝트입니다. 개인은 최대 10만원, 3인 이상 팀은 최대 100만원의 실행 경비를 지원합니다.",
+      "location": "강릉시 일원 · 사전교육·성과공유회 장소는 공식 안내 확인",
+      "price": "참가비 미기재 · 개인 최대 10만원·팀 최대 100만원 지원",
+      "applicationStatus": "접수 중",
+      "statusTone": "open",
+      "applicationText": "11월 10일 23:00까지 이메일 제출 · 11월 14일 사전교육과 12월 19일 성과공유회 참석 필수",
+      "audience": "강릉시 거주 11~19세 청소년 개인 또는 3인 이상 팀·동아리",
+      "audienceGroups": [
+        "초등 고학년",
+        "중고등"
+      ],
+      "tags": [
+        "무료",
+        "예약 필요"
+      ],
+      "sourceUrl": "https://www.gncaf.or.kr/ko/community/notice?a=view&id=469"
+    },
+    {
+      "id": 209,
+      "dateBadge": "접수 중 4강좌",
+      "dateText": "강좌별 9월 7~9일 개강 · 11월 23~25일 종료",
+      "category": "교육",
+      "title": "가톨릭관동대 평생교육원 접수 중 4강좌",
+      "summary": "보이차·AI 활용과 포토샵·죽음교육·유화 강좌입니다. 9월 18일 공식 공개 목록에서 상태가 ‘접수’인 강좌만 반영했고, 마감·‘준비중’ 강좌는 접수예정으로 추정하지 않았습니다.",
+      "location": "가톨릭관동대학교 평생교육원 · 범일로579번길 24",
+      "price": "강좌별 상이 · 개별 상세 확인",
+      "applicationStatus": "접수 중",
+      "statusTone": "open",
+      "applicationText": "공식 강좌 목록에 접수 표시 4건 · 공개 마감일·잔여석 미확인 · 실제 신청 가능 여부 확인",
+      "audience": "일반·시니어",
+      "audienceGroups": [
+        "일반",
+        "시니어"
+      ],
+      "tags": [
+        "예약 필요"
+      ],
+      "sourceUrl": "https://lifelong.cku.ac.kr/fro_end/html/main/"
+    },
+    {
+      "id": 17,
+      "dateBadge": "상시",
+      "dateText": "접수·운영 2026년 1월 1일~12월 31일",
+      "category": "교육",
+      "title": "한글학습지 지원",
+      "summary": "강릉시가족센터가 연중 운영하는 한글 학습 지원입니다. 온라인·오프라인 각 50명과 대기 10명으로 안내되어 있습니다.",
+      "location": "강릉시가족센터 · 가정별 안내",
+      "price": "공식 원문 확인",
+      "applicationStatus": "접수 중",
+      "statusTone": "open",
+      "applicationText": "연중 접수 · 온라인·오프라인",
+      "audience": "서비스 대상 가족",
+      "audienceGroups": [],
+      "tags": [],
+      "sourceUrl": "https://gangneung.familynet.or.kr/center/lay1/program/S295T322C449/receipt/list.do"
+    },
+    {
+      "id": 29,
+      "dateBadge": "상시",
+      "dateText": "접수 중 · 2026년 12월까지 회차별 운영",
+      "category": "체험",
+      "title": "숲해설 외 3건",
+      "summary": "솔향수목원 숲해설·유아숲교육, 자원순환센터 도슨트, 도시정보센터 견학을 통합예약의 현재 접수 항목에서 확인했습니다.",
+      "location": "솔향수목원·자원순환센터·도시정보센터",
+      "price": "무료",
+      "applicationStatus": "접수 중",
+      "statusTone": "open",
+      "applicationText": "회차별 예약 · 대상은 프로그램별 확인",
+      "audience": "개인·단체·청소년 등 프로그램별 상이",
+      "audienceGroups": [
+        "미취학",
+        "초등 저학년",
+        "초등 고학년",
+        "중고등",
+        "일반",
+        "시니어"
+      ],
+      "tags": [
+        "무료",
+        "아이와"
+      ],
+      "sourceUrl": "https://www.gn.go.kr/yeyak/selectUnityExprnWebList.do?key=5532&searchOperSttus=UREPST02"
+    },
+    {
+      "id": 32,
+      "dateBadge": "상시",
+      "dateText": "2026년 1월 1일~12월 31일",
+      "category": "상담·지원",
+      "title": "진로설계지원 개인상담",
+      "summary": "다문화가족 자녀를 위한 진로설계 개인상담입니다. 교육·상담 성격의 연중 지원 프로그램으로 반영했습니다.",
+      "location": "강릉시가족센터 상담실",
+      "price": "공식 원문 확인",
+      "applicationStatus": "접수 중",
+      "statusTone": "open",
+      "applicationText": "연중 접수",
+      "audience": "다문화가족 자녀",
+      "audienceGroups": [
+        "초등 고학년",
+        "중고등"
+      ],
+      "tags": [],
+      "sourceUrl": "https://gangneung.familynet.or.kr/center/lay1/program/S295T322C449/receipt/list.do"
+    },
+    {
+      "applicationStatus": "일정 공개",
+      "applicationText": "현재 모집 여부 재확인 필요 · 이번 공식 목록에 없어 기관 문의",
+      "audience": "중도입국 자녀",
+      "audienceGroups": [
+        "초등 저학년",
+        "초등 고학년",
+        "중고등"
+      ],
+      "category": "교육",
+      "dateBadge": "~12.31",
+      "dateText": "2026년 4월 1일~12월 31일",
+      "id": 30,
+      "location": "강릉시가족센터",
+      "price": "공식 원문 확인",
+      "sourceUrl": "https://gangneung.familynet.or.kr/center/lay1/program/S295T322C451/recruitReceipt/list.do",
+      "statusTone": "planned",
+      "summary": "중도입국 자녀의 한국어 향상을 위한 기초 과정입니다. 장기 운영 일정에 따라 교육으로 분류했습니다. 기존 검증 정보이며 8월 29일에는 현재 모집 여부를 재확인하지 못했습니다.",
+      "tags": [
+        "아이와"
+      ],
+      "title": "가나다라 프로그램 · 기초반"
+    },
+    {
+      "applicationStatus": "일정 공개",
+      "applicationText": "현재 모집 여부 재확인 필요 · 이번 공식 목록에 없어 기관 문의",
+      "audience": "상담이 필요한 가족",
+      "audienceGroups": [
+        "일반",
+        "시니어"
+      ],
+      "category": "상담·지원",
+      "dateBadge": "상시",
+      "dateText": "연중 운영 · 상담 일정 개별 조율",
+      "id": 33,
+      "location": "강릉시가족센터 상담실",
+      "price": "공식 원문 확인",
+      "sourceUrl": "https://gangneung.familynet.or.kr/center/lay1/program/S295T322C449/receipt/list.do",
+      "statusTone": "planned",
+      "summary": "가족관계와 심리 어려움을 상담할 수 있는 상시 지원입니다. 접수 방법과 상담 가능 일정은 공식 안내에서 확인해 주세요. 기존 검증 정보이며 8월 29일에는 현재 모집 여부를 재확인하지 못했습니다.",
+      "tags": [],
+      "title": "강릉시가족센터 가족·심리상담"
+    }
+  ],
+  "travel": [
+    {
+      "id": 154,
+      "dateBadge": "11.4~9",
+      "dateText": "2026년 11월 4~9일 · 운영시간 미공개",
+      "category": "전시",
+      "title": "김민진 개인전 〈고요한 사이〉",
+      "summary": "갤러리 초당에서 열리는 김민진 작가의 전시입니다. 공식 문화예술소식은 기간과 장소만 공개해 운영시간·관람료·휴관 정보는 미확인으로 유지했습니다.",
+      "location": "갤러리 초당",
+      "price": "공식 안내에 미기재",
+      "applicationStatus": "일정 공개",
+      "statusTone": "planned",
+      "applicationText": "신청·정원·운영시간·관람료 미공개 · 문의 010-5155-6390",
+      "audience": "공식 안내에 관람 연령 미기재",
+      "audienceGroups": [
+        "일반",
+        "시니어"
+      ],
+      "tags": [
+        "전시",
+        "실내"
+      ],
+      "sourceUrl": "https://www.gncaf.or.kr/ko/community/event?a=view&id=103",
+      "nearby": "초당동·허균허난설헌기념공원",
+      "localTip": "공식 상세에 운영시간과 관람료가 없어 출발 전 문의처로 확인하세요.",
+      "visualIcon": "展"
+    },
+    {
+      "id": 153,
+      "dateBadge": "11.6~7",
+      "dateText": "2026년 11월 6일 19:30 · 11월 7일 15:00",
+      "category": "공연",
+      "title": "유니버설발레단 〈호두까기인형〉",
+      "summary": "유니버설발레단의 〈호두까기인형〉 강릉 공연입니다. 공식 공연 일정에서 두 회차·관람등급·러닝타임·좌석별 가격을 확인했습니다.",
+      "location": "강릉아트센터 사임당홀",
+      "price": "R석 100,000원 · S석 80,000원 · A석 60,000원 · 시야제한석 40,000원",
+      "applicationStatus": "예매 중",
+      "statusTone": "ticket",
+      "applicationText": "공식 예매처에서 좌석 확인 · 4세 이상 · 잔여석 미확인 · 문의 033-660-2455",
+      "audience": "4세 이상",
+      "audienceGroups": [
+        "미취학",
+        "초등 저학년",
+        "초등 고학년",
+        "중고등",
+        "일반",
+        "시니어"
+      ],
+      "tags": [
+        "예약 필요",
+        "아이와",
+        "실내"
+      ],
+      "sourceUrl": "https://www.ubcballet.com/kr/bbs/board.php?bo_table=perf&wr_id=916",
+      "bestFor": "아이와 고전 발레를 보거나 연말 공연을 미리 예약하려는 사람",
+      "duration": "120분 · 인터미션 20분 포함",
+      "nearby": "교동·강릉종합운동장",
+      "localTip": "금요일 저녁과 토요일 오후 두 회차입니다. 좌석별 가격 차이가 커서 공식 예매 화면의 잔여석을 먼저 확인하세요.",
+      "visualIcon": "舞"
+    },
+    {
+      "id": 152,
+      "dateBadge": "11.14",
+      "dateText": "2026년 11월 14일 17:00",
+      "category": "공연",
+      "title": "이로사리아 가야금독주회 〈파도속에 흐르는 현〉",
+      "summary": "작은공연장 단에서 열리는 무료 가야금 독주회입니다. 공식 문화예술소식에서 날짜·시간·장소·가격을 확인했습니다.",
+      "location": "작은공연장 단",
+      "price": "무료",
+      "applicationStatus": "일정 공개",
+      "statusTone": "planned",
+      "applicationText": "신청·정원·입장 방법 미공개 · 문의 010-2114-6438",
+      "audience": "공식 안내에 관람 연령 미기재",
+      "audienceGroups": [
+        "일반",
+        "시니어"
+      ],
+      "tags": [
+        "무료",
+        "실내"
+      ],
+      "sourceUrl": "https://www.gncaf.or.kr/ko/community/event?a=view&id=101",
+      "nearby": "명주동·대도호부관아",
+      "localTip": "무료 공연이지만 입장 방식은 공개되지 않았으므로 방문 전 문의처로 확인하세요.",
+      "visualIcon": "樂"
+    },
+    {
+      "id": 151,
+      "dateBadge": "11.3~8",
+      "dateText": "2026년 11월 3~8일 · 운영시간 미공개",
+      "category": "전시",
+      "title": "전시 〈닳는중〉",
+      "summary": "명주예술마당에서 열리는 전시입니다. 공식 문화예술소식은 기간과 장소만 공개해 운영시간·관람료·휴관 정보는 미확인으로 유지했습니다.",
+      "location": "명주예술마당",
+      "price": "공식 안내에 미기재",
+      "applicationStatus": "일정 공개",
+      "statusTone": "planned",
+      "applicationText": "신청·정원·운영시간·관람료 미공개 · 문의 010-3497-9274",
+      "audience": "공식 안내에 관람 연령 미기재",
+      "audienceGroups": [
+        "일반",
+        "시니어"
+      ],
+      "tags": [
+        "전시",
+        "실내"
+      ],
+      "sourceUrl": "https://www.gncaf.or.kr/ko/community/event?a=view&id=102",
+      "nearby": "명주동·대도호부관아",
+      "localTip": "공식 상세에 운영시간이 없어 출발 전 문의처로 확인하세요.",
+      "visualIcon": "展"
+    },
+    {
+      "id": 149,
+      "dateBadge": "10.27~11.2",
+      "dateText": "2026년 10월 27일~11월 2일 · 11:00~18:00",
+      "category": "전시",
+      "title": "이샘이 개인전 · 기억의 굴절 시각의 불신",
+      "summary": "갤러리 소울에서 열리는 이샘이 작가의 개인전입니다. 공식 문화예술소식에서 기간·운영시간·장소·무료 관람을 확인했습니다.",
+      "location": "갤러리 소울 · 세부 주소는 공식 페이지 확인",
+      "price": "무료",
+      "applicationStatus": "일정 공개",
+      "statusTone": "planned",
+      "applicationText": "별도 신청·정원·휴관 안내 미공개 · 문의 010-4796-6279",
+      "audience": "공식 안내에 관람 연령 미기재",
+      "audienceGroups": [
+        "일반",
+        "시니어"
+      ],
+      "tags": [
+        "이번 주",
+        "무료",
+        "전시",
+        "실내"
+      ],
+      "sourceUrl": "https://www.gncaf.or.kr/ko/community/event?a=view&id=100&keyword=10&searchType=2026",
+      "bestFor": "조용한 실내 전시를 보고 싶은 여행자",
+      "duration": "관람 시간 미공개",
+      "nearby": "갤러리 소울 인근",
+      "localTip": "공식 페이지에 세부 주소와 휴관 안내가 없어 방문 전 문의처로 확인하세요.",
+      "visualIcon": "展"
+    },
+    {
+      "id": 138,
+      "dateBadge": "운영 중",
+      "dateText": "2026년 7월 1일부터 · 종료일·운영시간 미공개",
+      "category": "전시",
+      "title": "ART CABINET · PICASSO + DALÍ × TÀPIES",
+      "summary": "피카소·달리·타피에스와 동시대 작가들의 작품을 더하고 교차해 보여주는 하슬라아트월드 전시입니다. 공식 행사안내와 포스터에 종료일·관람료·상세 운영시간은 공개되지 않았습니다.",
+      "location": "하슬라아트월드 현대미술관 1관",
+      "price": "공식 안내에 관람료 미기재",
+      "applicationStatus": "일정 공개",
+      "statusTone": "planned",
+      "applicationText": "별도 예약·입장 방법 미공개 · 방문 전 하슬라아트월드에 확인",
+      "audience": "공식 안내에 관람 연령 미기재",
+      "audienceGroups": [
+        "일반",
+        "시니어"
+      ],
+      "tags": [
+        "실내",
+        "비 오는 날"
+      ],
+      "sourceUrl": "https://www.gtdc.or.kr/pub/bbsevent/9569.do",
+      "bestFor": "현대미술과 거장들의 작품을 함께 보고 싶은 사람",
+      "nearby": "정동진·하슬라아트월드 야외조각공원",
+      "localTip": "종료일과 관람료가 공식 행사안내에 없어 출발 전 미술관 운영시간과 입장권을 확인하세요.",
+      "visualIcon": "藝"
+    },
+    {
+      "applicationStatus": "일정 공개",
+      "applicationText": "공식 예매·입장 방법과 잔여석 확인 · 문의 033-660-3942",
+      "audience": "세부 관람 대상 공식 안내 확인",
+      "audienceGroups": [
+        "일반",
+        "시니어"
+      ],
+      "category": "전시",
+      "dateBadge": "~11.15",
+      "dateText": "2026년 8월 14일~11월 15일",
+      "id": 118,
+      "localTip": "율곡어린이박물관은 8월 27일~9월 1일 임시휴관입니다. 같은 단지의 다른 시설까지 휴관으로 오인하지 마세요.",
+      "location": "오죽헌·시립박물관 강릉화폐전시관 기획전시실 · 율곡로3139번길 24",
+      "nearby": "오죽헌·시립박물관",
+      "price": "공지에 관람료 미기재 · 입장권·운영시간 공식 안내 확인",
+      "sourceUrl": "https://www.gn.go.kr/museum/selectBbsNttView.do?key=943&bbsNo=67&nttNo=222720",
+      "statusTone": "planned",
+      "summary": "조선의 과거 준비부터 합격 증서인 교지의 의미를 살펴보는 특별전입니다. ‘나도 장원급제’ 포토존도 마련됩니다.",
+      "tags": [
+        "실내",
+        "비 오는 날"
+      ],
+      "title": "한 장의 종이, 한 사람의 인생 · 조선의 과거제와 교지 이야기"
+    },
+    {
+      "applicationStatus": "일정 공개",
+      "applicationText": "세부 예약·입장 방법 공식 안내 확인",
+      "audience": "세부 관람 대상 공식 안내 확인",
+      "audienceGroups": [
+        "일반",
+        "시니어"
+      ],
+      "category": "공연",
+      "dateBadge": "10.30",
+      "dateText": "2026년 10월 30일 19:30",
+      "id": 122,
+      "localTip": "일정 공개는 예약 없이 입장할 수 있다는 뜻이 아닙니다. 방문 전 개별 공연의 예매 안내를 확인하세요.",
+      "location": "강릉단오제전수교육관 공연장",
+      "nearby": "남대천·단오장 일대",
+      "price": "전석 20,000원",
+      "sourceUrl": "https://www.gn.go.kr/dano/selectBbsNttView.do?key=5847&bbsNo=1239&nttNo=227543",
+      "statusTone": "planned",
+      "summary": "단오제전수교육관 하반기 공식 공연 안내에 공개된 일정입니다. 예매 개시일·관람 연령·잔여석은 아직 확인하지 못했습니다.",
+      "tags": [],
+      "title": "뮤지컬 《사랑은 비를 타고》"
+    },
+    {
+      "applicationStatus": "일정 공개",
+      "applicationText": "세부 예약·입장 방법 공식 안내 확인",
+      "audience": "세부 관람 대상 공식 안내 확인",
+      "audienceGroups": [
+        "일반",
+        "시니어"
+      ],
+      "category": "공연",
+      "dateBadge": "11.6",
+      "dateText": "2026년 11월 6일 19:30",
+      "id": 123,
+      "localTip": "일정 공개는 예약 없이 입장할 수 있다는 뜻이 아닙니다. 방문 전 개별 공연의 예매 안내를 확인하세요.",
+      "location": "강릉단오제전수교육관 공연장",
+      "nearby": "남대천·단오장 일대",
+      "price": "전석 20,000원",
+      "sourceUrl": "https://www.gn.go.kr/dano/selectBbsNttView.do?key=5847&bbsNo=1239&nttNo=227543",
+      "statusTone": "planned",
+      "summary": "단오제전수교육관 하반기 공식 공연 안내에 공개된 일정입니다. 예매 개시일·관람 연령·잔여석은 아직 확인하지 못했습니다.",
+      "tags": [],
+      "title": "사물놀이 공연 《신명의 꽃》"
+    },
+    {
+      "id": 109,
+      "dateBadge": "~10.25",
+      "dateText": "7월 22일~10월 25일 · 화~일 10:00~18:00 · 월요일 휴관",
+      "category": "전시",
+      "title": "강릉시립미술관 솔올 특별전 《화가 김종학》",
+      "summary": "김종학의 드로잉과 대형 회화, 주요 아카이브, 속초 작업실을 재현한 공간까지 만나는 특별전입니다. 강렬한 꽃과 자연의 에너지를 보고 오죽헌이나 교동으로 이어가기 좋습니다.",
+      "location": "강릉시립미술관 솔올",
+      "price": "성인 10,000원 · 청소년 7,000원 · 어린이 5,000원",
+      "applicationStatus": "신청 불필요",
+      "statusTone": "walkin",
+      "applicationText": "전시는 현장 관람 · 교육은 별도 신청 확인",
+      "audience": "전시 관람객",
+      "audienceGroups": [
+        "미취학",
+        "초등 저학년",
+        "초등 고학년",
+        "중고등",
+        "일반",
+        "시니어"
+      ],
+      "tags": [
+        "아이와",
+        "실내",
+        "데이트",
+        "혼자",
+        "사진",
+        "비 오는 날"
+      ],
+      "sourceUrl": "https://www.gn.go.kr/mu/selectMoonhwainView.do?key=6614&searchMoon_p_team=gnmu&searchMoon_p_kind=gallery&searchMoon_p_idx=161",
+      "coordinates": {
+        "lat": 37.76649,
+        "lng": 128.87433
+      },
+      "mapLabel": "강릉시립미술관 솔올",
+      "bestFor": "전시·건축을 좋아하거나 비 오는 날 실내 코스가 필요한 사람",
+      "duration": "60~90분",
+      "nearby": "오죽헌 · 교동 일대 · 강릉아트센터",
+      "localTip": "월요일은 휴관입니다. 도슨트는 화~금 14시·16시, 토요일 11시에 운영되므로 해설을 원하면 시간에 맞춰 방문하세요.",
+      "image": "/events/kim-jonghak.jpg",
+      "imageAlt": "강릉시립미술관 솔올 특별전 화가 김종학 공식 포스터",
+      "imageCredit": "강릉시립미술관 솔올 공식 포스터"
+    },
+    {
+      "id": 110,
+      "dateBadge": "상시 관람",
+      "dateText": "기념관·문학공원 · 운영시간은 방문 전 확인",
+      "category": "전시",
+      "title": "허균·허난설헌 문학공원과 기념관",
+      "summary": "허균과 허난설헌의 문학 세계를 소개하는 기념관, 생가터와 소나무 산책길이 이어집니다. 초당에서 식사한 뒤 걷거나 강문 바다로 넘어가기 좋은 조용한 연결 지점입니다.",
+      "location": "허균허난설헌기념공원",
+      "price": "공식 관람 안내 확인",
+      "applicationStatus": "신청 불필요",
+      "statusTone": "walkin",
+      "applicationText": "예약 없이 관람 · 행사별 별도 확인",
+      "audience": "누구나",
+      "audienceGroups": [
+        "미취학",
+        "초등 저학년",
+        "초등 고학년",
+        "중고등",
+        "일반",
+        "시니어"
+      ],
+      "tags": [
+        "아이와",
+        "데이트",
+        "혼자",
+        "사진"
+      ],
+      "sourceUrl": "https://www.gn.go.kr/www/selectBbsNttView.do?bbsNo=12&key=258&nttNo=180022",
+      "coordinates": {
+        "lat": 37.79101,
+        "lng": 128.90912
+      },
+      "mapLabel": "허균허난설헌기념공원",
+      "bestFor": "북적이는 핫플보다 조용한 산책과 문학을 좋아하는 사람",
+      "duration": "60~90분",
+      "nearby": "초당순두부마을 · 경포호 · 강문해변",
+      "localTip": "야외 산책 비중이 큽니다. 한여름에는 오전이나 늦은 오후에 방문하고 기념관 운영 시간을 확인하세요.",
+      "visualIcon": "✦"
+    }
+  ],
+  "groups": [
+    {
+      "id": "family-1031-kleague",
+      "institution": "강릉시가족센터",
+      "place": "강릉하이원아레나",
+      "registrationDate": "~11.6",
+      "registrationLabel": "10월 31일 10:00~11월 6일 10:00",
+      "status": "접수 중",
+      "audience": "가족친화문화 프로그램 대상 가정 · 세부 자격은 공식 상세 확인",
+      "summaryTitle": "K리그1 강원FC 대 전북현대 경기 관람",
+      "summaryMeta": "11월 8일 · 1회 · 비용·정원·잔여석 미공개",
+      "courses": [
+        {
+          "title": "강원FC 대 전북현대 경기 관람 지원",
+          "detail": "11.8 · 1회 · 11.6 10:00 마감 · 비용·정원·선정 방식 미공개",
+          "sourceUrl": "https://gangneung.familynet.or.kr/center/lay1/program/S295T322C451/recruitReceipt/list.do"
+        }
+      ]
+    },
+    {
+      "id": "family-1030-dream-frame",
+      "institution": "강릉시가족센터",
+      "place": "강릉시가족센터 2층 강의실3",
+      "registrationDate": "~11.6",
+      "registrationLabel": "10월 30일 14:00~11월 6일 16:00",
+      "status": "접수 중",
+      "audience": "다문화가족 자녀 · 세부 연령은 공식 상세 확인",
+      "summaryTitle": "미래설계 꿈틀-꿈의 틀을 잡다",
+      "summaryMeta": "11월 7~28일 · 총 4회 · 비용·정원·잔여석 미공개",
+      "courses": [
+        {
+          "title": "미래설계 꿈틀-꿈의 틀을 잡다",
+          "detail": "11.7~28 · 총 4회 · 11.6 16:00 마감 · 회차별 시간·비용·정원 미공개",
+          "sourceUrl": "https://gangneung.familynet.or.kr/center/lay1/program/S295T322C451/recruitReceipt/list.do"
+        }
+      ]
+    },
+    {
+      "id": "family-1028-child-3dpen",
+      "institution": "강릉시가족센터",
+      "place": "강릉시가족센터 강의실3",
+      "registrationDate": "~11.4",
+      "registrationLabel": "10월 28일 14:00~11월 4일 16:00",
+      "status": "접수 중",
+      "audience": "다문화가족 자녀 · 세부 연령은 공식 상세 확인",
+      "summaryTitle": "상상 더하기 3D펜 2기",
+      "summaryMeta": "11월 7~21일 · 총 3회 · 비용·정원·잔여석 미공개",
+      "courses": [
+        {
+          "title": "상상 더하기 3D펜 2기",
+          "detail": "11.7~21 · 총 3회 · 11.4 16:00 마감 · 비용·정원·회차별 시간 미공개",
+          "sourceUrl": "https://gangneung.familynet.or.kr/center/lay1/program/S295T322C451/recruitReceipt/list.do"
+        }
+      ]
+    },
+    {
+      "id": "family-1029-mentor-cooking",
+      "institution": "강릉시가족센터",
+      "place": "강릉시가족센터 1층 공유주방",
+      "registrationDate": "~11.4",
+      "registrationLabel": "10월 29일 09:00~11월 4일 18:00",
+      "status": "접수 중",
+      "audience": "멘토·멘티 · 세부 자격은 공식 상세 확인",
+      "summaryTitle": "멘토-멘티 한국요리 교육",
+      "summaryMeta": "11월 4일 · 단회기 · 비용·정원·잔여석 미공개",
+      "courses": [
+        {
+          "title": "멘토-멘티 한국요리 교육",
+          "detail": "11.4 · 단회기 · 11.4 18:00 마감 · 비용·정원·회차 시간 미공개",
+          "sourceUrl": "https://gangneung.familynet.or.kr/center/lay1/program/S295T322C451/recruitReceipt/list.do"
+        }
+      ]
+    },
+    {
+      "id": "gnslib-fall-moru-adult",
+      "institution": "모루도서관",
+      "place": "모루도서관 · 강좌별 강의실 확인",
+      "registrationDate": "9.21 10:00",
+      "registrationLabel": "9월 21일 10:00 접수 시작 · 10월 23일 18:00까지",
+      "status": "접수 중",
+      "audience": "성인·시니어",
+      "summaryTitle": "심플하게 느껴보는 몸, 물건, 마음",
+      "summaryMeta": "1강좌 · 4회 · 5,000원 · 정원 10명 · 마지막 직접 확인 1/10명",
+      "courses": [
+        {
+          "title": "심플하게 느껴보는 몸, 물건, 마음",
+          "detail": "10.25~11.15 일 10:00~12:00 · 5,000원 · 1/10명 · 10.23 마감",
+          "sourceUrl": "https://www.gnslib.or.kr/participation/culture-event/1088"
+        }
+      ]
+    },
+    {
+      "id": "family-1018-school-korean",
+      "institution": "강릉시가족센터",
+      "place": "강릉시가족센터 2층 강의실1",
+      "registrationDate": "상시",
+      "registrationLabel": "과정별 11월 30일 또는 12월 31일까지 · 공식 목록에서 접수중",
+      "status": "접수 중",
+      "audience": "중도입국·외국인주민 자녀 초등학생",
+      "summaryTitle": "가나다라 한국어 기초반",
+      "summaryMeta": "1강좌 · 26회 · 비용·정원·잔여석 미공개",
+      "courses": [
+        {
+          "title": "가나다라 프로그램 · 초등 기초반",
+          "detail": "8.11~12.3 · 화·수 16:00~18:00 · 26회 · 12.31 마감",
+          "sourceUrl": "https://gangneung.familynet.or.kr/center/lay1/program/S295T322C451/recruitReceipt/list.do?cpage=3&rows=5"
+        }
+      ]
+    },
+    {
+      "id": "family-1020-parent-young",
+      "institution": "강릉시가족센터",
+      "place": "센터 교류소통공간·공유주방",
+      "registrationDate": "~11.7",
+      "registrationLabel": "10월 20일 10:00 시작 · 과정별 11월 7일 10:00 또는 11월 24일 18:00까지",
+      "status": "접수 중",
+      "audience": "예비부모·영유아 자녀와 부모",
+      "summaryTitle": "마음 쉼 명상요가·성장쑥쑥 첫 이유식",
+      "summaryMeta": "2강좌 · 3~7회 · 공식 목록에서 마감 연장 확인 · 비용·정원·잔여석 미공개",
+      "courses": [
+        {
+          "title": "마음 쉼 명상요가",
+          "detail": "2~7세 자녀를 둔 부모 1인 · 11.3~24 화·목 14:00~16:00 · 7회 · 11.24 18:00 마감",
+          "sourceUrl": "https://gangneung.familynet.or.kr/center/lay1/program/S295T322C451/recruitReceipt/view.do?seq=284260"
+        },
+        {
+          "title": "성장쑥쑥 첫 이유식",
+          "detail": "예비부모 또는 3세 미만 자녀와 부모 1인 · 11.3~17 화 14:00~16:00 · 3회 · 11.7 10:00 마감",
+          "sourceUrl": "https://gangneung.familynet.or.kr/center/lay1/program/S295T322C451/recruitReceipt/view.do?seq=284257"
+        }
+      ]
+    },
+    {
+      "id": "cku-lifelong-2026-fall",
+      "institution": "가톨릭관동대학교 평생교육원",
+      "place": "가톨릭관동대학교 평생교육원 · 강좌별 강의실 확인",
+      "registrationDate": "접수 중",
+      "registrationLabel": "공식 목록에 접수 표시 · 공개 마감일·잔여석 미확인",
+      "status": "접수 중",
+      "audience": "일반·시니어",
+      "summaryTitle": "2026 가을학기 접수 중 4강좌",
+      "summaryMeta": "9월 7~9일 개강 · 11월 23~25일 종료 · 9월 18일 공식 목록 확인",
+      "courses": [
+        {
+          "title": "보이차 강좌",
+          "detail": "9.8~11.24 · 화 19:00~21:00 · 한경주 · 20명 · 200,000원·재료비 별도 · 강의실 추후 공지",
+          "sourceUrl": "https://lifelong.cku.ac.kr/fro_end/html/dep_01/view.html?id=5283"
+        },
+        {
+          "title": "포트폴리오를 위한 AI활용과 포토샵",
+          "detail": "9.8~11.24 · 화 14:00~17:00 · 유제원 · 15명 · 150,000원·재료비 별도 · 강의실 추후 공지",
+          "sourceUrl": "https://lifelong.cku.ac.kr/fro_end/html/dep_01/view.html?id=5276"
+        },
+        {
+          "title": "삶을 성장시키는 죽음교육",
+          "detail": "9.7~11.23 · 월 14:00~15:30 · 정명화 · 10명 · 200,000원·재료비 별도 · 강의실 추후 공지",
+          "sourceUrl": "https://lifelong.cku.ac.kr/fro_end/html/dep_01/view.html?id=5273"
+        },
+        {
+          "title": "유화",
+          "detail": "9.9~11.25 · 수 10:00~13:00 · 이명인 · 15명 · 200,000원·재료비 별도",
+          "sourceUrl": "https://lifelong.cku.ac.kr/fro_end/html/dep_01/view.html?id=5261"
+        }
+      ]
+    },
+    {
+      "audience": "초등·중고등",
+      "courses": [
+        {
+          "title": "가나다라 프로그램 · 3반",
+          "detail": "중도입국자녀 등 외국인주민 초등학생 · 26회 · 교육 8.11~12.3 · 접수 ~12.31 00:00",
+          "sourceUrl": "https://gangneung.familynet.or.kr/center/lay1/program/S295T322C451/recruitReceipt/list.do"
+        }
+      ],
+      "id": "family-0303-children",
+      "institution": "강릉시가족센터",
+      "place": "강릉시가족센터",
+      "registrationDate": "~12.31",
+      "registrationLabel": "3반 접수 12월 31일 00:00까지",
+      "status": "접수 중",
+      "summaryMeta": "중도입국자녀 등 외국인주민 초등학생 · 26회 · 잔여석 미확인",
+      "summaryTitle": "가나다라 프로그램 · 3반"
+    },
+    {
+      "audience": "공식 대상 확인",
+      "courses": [
+        {
+          "title": "기초학습지원 1반",
+          "detail": "접수 1.9~12.31 00:00 · 교육 1.9~12.1 · 잔여석 미확인",
+          "sourceUrl": "https://gangneung.familynet.or.kr/center/lay1/program/S295T322C451/recruitReceipt/list.do"
+        },
+        {
+          "title": "기초학습지원 2반",
+          "detail": "접수 1.9~12.31 00:00 · 교육 1.24~12.31 · 잔여석 미확인",
+          "sourceUrl": "https://gangneung.familynet.or.kr/center/lay1/program/S295T322C451/recruitReceipt/list.do"
+        }
+      ],
+      "id": "family-0109-learning",
+      "institution": "강릉시가족센터",
+      "place": "강릉시가족센터",
+      "registrationDate": "상시",
+      "registrationLabel": "1·2반 접수 12월 31일 00:00까지",
+      "status": "접수 중",
+      "summaryMeta": "1·2반 공식 목록 재확인 · 반별 잔여석 미확인",
+      "summaryTitle": "기초학습지원 1·2반"
+    }
+  ]
+}

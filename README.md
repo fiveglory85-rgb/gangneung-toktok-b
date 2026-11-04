@@ -1,28 +1,31 @@
-# Sites Worker ESM starter
+# 강릉톡톡 B
 
-Use this starter for a static microsite, click counter, or simple internal UI whose state is browser-scoped. It has no dependencies and needs no install.
+시민의 행사·공연·체험·교육 탐색을 위한 독립 Sites 프로젝트. 소유자 전용 비공개 정책을 유지한다.
 
-Edit `worker/index.js`, then publish through the Sites hosting workflow with this starter's build and validation in `commands`.
+## 개발
 
-The build copies only `worker/index.js` and `.openai/hosting.json`. Do not add standalone asset files. Embed any essential raster bytes in `worker/index.js` and serve or reference them as a data URL.
+- src/home.html: 화면 구조
+- src/styles.css: PC·모바일 디자인
+- src/app.js, src/logic.mjs: 검색·정렬·접수 상태·브라우저 일정담기
+- src/content.mjs: 기관 공고 데이터 변환, 날짜·지역·분야 보완
+- data/reference.json: A의 2026-11-02 공고 정리 자료 스냅샷. 원본 커밋 포함
+- src/server.mjs: 공고와 선택적 공공 API 제공. 키는 서버 환경변수로만 사용
+- scripts/build.mjs: UI와 데이터를 단일 Worker로 패키징
 
-Pass these argument arrays as `commands`:
+`npm run build`, `npm test`, `npm run validate`로 검증한다. `node scripts/preview.mjs`는 localhost:4187, /mobile은 390px 검수용 프레임이다. /mobile은 배포하지 않는다.
 
-```json
-[
-  ["bash", "scripts/build.sh"],
-  ["node", "scripts/validate-artifact.mjs"]
-]
-```
+## 콘텐츠 운영
 
-The deterministic build produces:
+32개 실자료 레코드(프로그램과 공식 안내 목록 포함). 2026-11-04 기준 지난 일정 3개를 제외해 기본 29개가 표시된다. 현재 한국 날짜에 따라 바뀐다. 샘플 프로그램을 제공하지 않는다.
 
-```text
-dist/
-├── .openai/
-│   └── hosting.json
-└── server/
-    └── index.js
-```
+공고별 확인일을 표시하며, 기본은 2026-11-02 자료다. 일부 전시·공연은 11월 4일 재확인했다. 링크 접근과 모집 조건 전체 검증은 다르다. A의 변경이 B에 자동 동기화되지는 않는다. 공고가 바뀌면 원문을 확인하여 데이터와 변환 내용을 수정한 뒤 검증·배포한다.
 
-`dist/server/index.js` is an ES module with a default export containing `fetch(request, env, ctx)`. Edit `worker/index.js`, not the generated file under `dist/`.
+공공 API를 추가하려면 Sites 서버 비밀설정에 TOUR_API_KEY, FESTIVAL_API_KEY, LEARNING_API_KEY를 등록하고 재배포한다. 키가 없어도 기관 공고는 보인다. API는 공급자별 최대 1,000건 조회 후 강릉 주소를 선별하는 보조 연결로, 전체 수집·실시간 갱신·강릉 전체 정보 보장을 의미하지 않는다.
+
+접수 마감은 한국시간을 쓴다. 종료일이 지난 일정은 기본 숨김, 접수만 끝난 장기 과정은 접수 종료로 남긴다. 무료 여부 미기재와 실제 무료를 구분한다. 키·개인정보는 소스·브라우저 저장소에 넣지 않는다. 일정담기에는 프로그램 ID만 저장한다.
+
+제보·후기·캐릭터 리워드·사업자 지원은 준비 단계다. 클럽 그림은 시안용 그래픽이며 확정 캐릭터 원본이 아니다.
+
+## 배포
+
+.openai/hosting.json의 B 프로젝트 ID를 유지한다. Sites source workflow로 소스를 동기화·빌드·패키징하고 owner-private 배포를 사용한다. A는 참조만 하며 변경하지 않는다.

@@ -10,6 +10,6 @@ ok((await collect(providers[1],'test',mock)).records.length===101);ok(calls===2)
 await assert.rejects(()=>collect(providers[0],'test',async()=>Response.json({response:{header:{resultCode:'30'}}})));tests++;
 const d=await data({});ok(d.items.length===0&&d.providers.every(p=>p.state==='missing_key'));
 ok((await worker.fetch(new Request('https://test/api/events'),{})).status===200);ok((await worker.fetch(new Request('https://test/nope'),{})).status===404);
-const html=await readFile('src/index.html','utf8');new Script(html.match(/<script>([\s\S]*?)<\/script>/)[1]);tests++;
+const ui=await readFile('src/app.js','utf8'),logic=(await readFile('src/logic.mjs','utf8')).replaceAll('export ','');new Script(ui.replace('/*LOGIC*/',logic));tests++;
 console.log(tests+' checks passed: normalization, unknown fees, location, pagination, provider errors, missing keys, routes, UI syntax');
 

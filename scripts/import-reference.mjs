@@ -1,0 +1,13 @@
+import {readFile,writeFile,mkdir} from 'node:fs/promises';
+import {stripTypeScriptTypes} from 'node:module';
+const root='../../work/this-week-reference';
+let lectures=await readFile(root+'/lib/lecturePrograms.ts','utf8');
+lectures=stripTypeScriptTypes(lectures.replace(/export /g,''),{mode:'transform'});
+const l=Function(lectures+';return {yulgokLectures,libraryLectureDetails}')();
+let page=await readFile(root+'/app/page.tsx','utf8');
+page=page.slice(page.indexOf('type ServiceMode'),page.indexOf('function EventVisual'));
+const code=stripTypeScriptTypes(page,{mode:'transform'});
+const d=Function('yulgokLectures','libraryLectureDetails',code+';return {events:currentLifeEvents,travel:currentTravelEvents,groups:currentProgramGroups}')(l.yulgokLectures,l.libraryLectureDetails);
+await mkdir('data',{recursive:true});
+await writeFile('data/reference.json',JSON.stringify({origin:'이번주 강릉',sourceCommit:'65169dc7e723ef0abd7ff61404f49e7f2d2e53b2',verifiedAt:'2026-11-02',importedAt:'2026-11-04',...d},null,2));
+console.log(JSON.stringify({events:d.events.length,travel:d.travel.length,groups:d.groups.length}));
